@@ -7,11 +7,14 @@ html {
     color: purple;
     font-size: 4rem;
   }
+  /* //centramos el body */
+
+
   
   body {
     margin: 0 auto;
     width: 100%;
-    max-width: 80ch;
+    max-width: 100ch;
     padding: 1rem;
     line-height: 1.5;
   }
@@ -63,7 +66,6 @@ html {
 
 @media screen and (min-width: 636px) {
   .nav-links {
-    margin-left: 5em;
     display: block;
     position: static;
     width: auto;
