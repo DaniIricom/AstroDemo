@@ -2,6 +2,11 @@ html {
     background-color: #f1f5f9;
     font-family: sans-serif;
   }
+
+  h1 {
+    color: purple;
+    font-size: 4rem;
+  }
   
   body {
     margin: 0 auto;
