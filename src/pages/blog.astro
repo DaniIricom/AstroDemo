@@ -1,7 +1,6 @@
 ---
 import "../styles/global.css";
-import Footer from "../components/Footer.astro";
-import Header from "../components/Header.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
 
 const pageTitle = "Blog";
 ---
@@ -15,9 +14,7 @@ const pageTitle = "Blog";
     <title>{pageTitle}</title>
   </head>
   <body>
-    <Header />
-
-    <h1>{pageTitle}</h1>
+    <BaseLayout pageTitle={pageTitle} />
 
     <p>Bienvenidos a mi blog</p>
 
@@ -28,11 +25,5 @@ const pageTitle = "Blog";
       <li><a href="/posts/post-2">Publicación 2</a></li>
       <li><a href="/posts/post-3">Publicación 3</a></li>
     </ul>
-
-    <Footer />
-
-    <script>
-      import "../scripts/menu.js";
-    </script>
   </body>
 </html>
